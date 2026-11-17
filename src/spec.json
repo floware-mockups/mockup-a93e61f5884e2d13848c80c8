@@ -1,0 +1,165 @@
+{
+  "title": "Gestione pratiche dello sportello",
+  "description": "Dashboard per consultare e aggiornare pratiche di prova, con stato e scadenza.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Riepilogo pratiche",
+      "description": "Panoramica delle pratiche inventate e delle scadenze più vicine.",
+      "metrics": [
+        {
+          "label": "Pratiche totali",
+          "value": "8"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "3"
+        },
+        {
+          "label": "In attesa",
+          "value": "2"
+        },
+        {
+          "label": "Completate",
+          "value": "2"
+        },
+        {
+          "label": "Scadenze entro 7 giorni",
+          "value": "2"
+        }
+      ],
+      "columns": [
+        "Codice pratica",
+        "Oggetto",
+        "Richiedente",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "PR-6701",
+          "Rilascio attestazione",
+          "Nubi",
+          "In lavorazione",
+          "12/06/2026"
+        ],
+        [
+          "PR-6702",
+          "Aggiornamento posizione",
+          "Vela",
+          "In attesa",
+          "14/06/2026"
+        ],
+        [
+          "PR-6703",
+          "Richiesta informativa",
+          "Lumo",
+          "Completata",
+          "08/06/2026"
+        ],
+        [
+          "PR-6704",
+          "Verifica documentazione",
+          "Orma",
+          "In lavorazione",
+          "10/06/2026"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "elenco-pratiche",
+      "title": "Elenco pratiche",
+      "description": "Tabella filtrabile per codice, oggetto, richiedente, stato e scadenza.",
+      "metrics": [],
+      "columns": [
+        "Codice pratica",
+        "Oggetto",
+        "Richiedente",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [
+        [
+          "PR-6701",
+          "Rilascio attestazione",
+          "Nubi",
+          "In lavorazione",
+          "12/06/2026"
+        ],
+        [
+          "PR-6702",
+          "Aggiornamento posizione",
+          "Vela",
+          "In attesa",
+          "14/06/2026"
+        ],
+        [
+          "PR-6703",
+          "Richiesta informativa",
+          "Lumo",
+          "Completata",
+          "08/06/2026"
+        ],
+        [
+          "PR-6704",
+          "Verifica documentazione",
+          "Orma",
+          "In lavorazione",
+          "10/06/2026"
+        ],
+        [
+          "PR-6705",
+          "Rettifica anagrafica",
+          "Bruma",
+          "In attesa",
+          "19/06/2026"
+        ],
+        [
+          "PR-6706",
+          "Richiesta certificazione",
+          "Selva",
+          "Completata",
+          "09/06/2026"
+        ],
+        [
+          "PR-6707",
+          "Variazione recapito",
+          "Riva",
+          "In lavorazione",
+          "16/06/2026"
+        ],
+        [
+          "PR-6708",
+          "Domanda di accesso",
+          "Alba",
+          "Ricevuta",
+          "22/06/2026"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "nuova-pratica",
+      "title": "Nuova pratica",
+      "description": "Inserisci una pratica con i dati essenziali e una scadenza di lavorazione.",
+      "metrics": [],
+      "columns": [
+        "Codice pratica",
+        "Oggetto",
+        "Richiedente",
+        "Stato",
+        "Scadenza"
+      ],
+      "rows": [],
+      "form": [
+        "Codice pratica",
+        "Oggetto",
+        "Richiedente",
+        "Stato",
+        "Scadenza"
+      ]
+    }
+  ]
+}
